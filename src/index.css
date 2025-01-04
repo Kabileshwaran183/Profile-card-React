@@ -17,7 +17,6 @@ body{
   max-width: 317px;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 .prof-img{
   width: 317px;
@@ -146,5 +145,24 @@ color: #DCDCDC;
   width: 25px;
   height: 25px;
   opacity: 0px;
-  
+}
+
+@media (max-width: 600px){
+  .outer-box{
+    width:450px;
+    padding: 20px 10px 20px 10px;
+  }
+  .inner-box{
+    margin:0 auto;
+    min-width: fit-content;
+  }
+  .prof-img{
+    width: 100%;
+  }
+  .prof-section{
+    width: 100%;
+  }
+  .footer-section{
+    width: 100%;
+  }
 }
