@@ -70,6 +70,9 @@ color: #F5F5F5;
   gap:17px;
   margin-bottom: 33px;
 }
+.btn-section > a{
+  text-decoration: none;
+}
 #mail-btn , #lin-btn{
   display: flex;
   align-items: center;
